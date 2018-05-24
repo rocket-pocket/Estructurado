@@ -1,0 +1,26 @@
+header{
+    margin: 100px;
+    background: blanchedalmond;
+}
+main{
+    margin: 50px;
+    
+}
+section{
+    margin-top: 50px;
+    background: rgb(133, 117, 94);
+}
+article{
+    margin: 100px;
+    background: rgb(51, 102, 76);
+}
+aside{
+    margin: 100px;
+}
+footer{
+    margin: 100px;
+    background: aquamarine;
+}
+.none{
+   /* display: none;*/
+}

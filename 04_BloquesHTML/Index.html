@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dvdrones">
+    <meta name="description" content="bloqueHTML, listas, etc">
+    <meta name="generator" content="VSC">
+    <title>Bloques HTML</title>
+    <link rel="stylesheet" href="./CSS/Styles.css">
+    <script src="./Scripts/app.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Introduccioón al HTML <span>Uso de bloques en HTML</span></h1><!-- <span> para elementos en línea -->
+        <nav>
+            <ul><!-- Listas dentro de listas -->
+                <li><a href="#">Reptiles</a></li>
+                <li><a href="#">Pájaros</a>
+                    <ul>
+                        <li><a href="#">Gorriones</a></li>
+                        <li><a href="#">Carpinteros</a></li>
+                        <li><a href="#">Periquitos</a></li>
+                        <li><a href="#">Canarios</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Perros</a></li>
+                <li><a href="#">Gatos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <details>
+                    <!-- DESPLEGABLE -->
+                    <h3>Desplegable</h3>
+                    <summary>Diseño web</summary>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et inventore ab dignissimos ipsum, quam, amet illo doloremque repellendus, beatae quis nostrum accusantium culpa harum laborum! Nulla perferendis non sed consequuntur!</p>
+                </details>
+            </article>
+            <article>
+                <!-- MODAL IMPORTANTE necesaria la clase "open" -->
+                <dialog open class="none">
+                    <p>Ventana modal</p>
+                    <button>cerrar</button>
+                </dialog>
+                <button>abrir</button>
+            </article>
+        </section>
+        <section>
+            <article>
+                <pre>Lorem ipsum dolor sit,
+                    
+                    amet consectetur adipisicing    elit.    Quia dignissimos nemo inventore explicabo, iure voluptatum, consequatur fuga delectus beatae mollitia possimus nobis accusantium. 
+            Eum minima doloremque praesentium iure temporibus velit?
+                Lorem ipsum dolor sit,ametconsecteturadipisicingelit.
+                
+                Quia dignissimos nemo inventore explicabo, iure voluptatum, consequatur fuga delectus beatae mollitia possimus nobis accusantium. Eum minima doloremque praesentium iure temporibus velit?</pre><!-- <pre> es igual que <p> y respeta retornos de carro, espacios, saltos de línea, etc. Muy utilizada para poesias -->
+            </article>
+        </section>
+
+    </main>
+    <aside>
+        <h3>Aside</h3>
+        <ul>
+            <li><a href="#">redes sociales</a></li>
+            <li><a href="#">redes sociales</a></li>
+            <li><a href="#">redes sociales</a></li>
+            <li><a href="#">redes sociales</a></li>
+            <li><a href="#">redes sociales</a></li>
+        </ul>
+    </aside>
+
+    <footer>
+        <address>Daniel Vedrú</address>
+        <p><small>&copy;Dvdrones</small></p>
+    </footer>
+    
+</body>
+</html>
