@@ -2,4 +2,6 @@
 Ejercicios de clase reestructurados
 
 
-![Texto alternativo](./assets/batman_by_nib2t-dai5v5q.png"Título alternativo")
+![hola](./assets/batman_by_nib2t-dai5v5q.png"Título alternativo")
+
+![Sin titulo](assets/batman_by_nib2t-dai5v5q.png)
